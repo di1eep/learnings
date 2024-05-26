@@ -1,0 +1,5 @@
+\ escape charactor 
+\n = new line
+\" = 
+
+`${}` = interpoltion

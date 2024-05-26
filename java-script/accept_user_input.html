@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="welcome">welcome</h1>
+  <label for="">Username: </label>
+  <input id="myText" type="text">
+  <button id="submit">Submit</button>
+  <script>
+
+     
+    let input = document.getElementById('myText');
+    let btn =  document.getElementById('submit');
+    let heading = document.getElementById('welcome')
+
+
+    btn.onclick = function() {
+      heading.innerText = (input.value);
+    }
+
+  </script>
+</body>
+</html>
